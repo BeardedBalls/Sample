@@ -1,0 +1,91 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #bbb 3px solid;
+}
+
+header h1 {
+    float: left;
+    margin-right: 30px;
+}
+
+header nav ul {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #fff;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border: #ddd 1px solid;
+}
+
+form input,
+form textarea,
+form button {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #555;
+}
